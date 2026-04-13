@@ -1,0 +1,21 @@
+{
+  "name": "photo-ac-search-tests",
+  "version": "1.0.0",
+  "description": "Selenium TypeScript tests for photo-ac.com search functionality",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && mocha --exit dist/search.test.js"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.0",
+    "@types/selenium-webdriver": "^4.35.5",
+    "chai": "^4.3.7",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
+  }
+}
